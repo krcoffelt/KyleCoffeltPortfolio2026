@@ -42,7 +42,7 @@ const Hero = () => {
       {/* Unicorn Studio Animation */}
       <div className="absolute inset-0 bg-black overflow-hidden flex items-center justify-center">
         <div 
-          data-us-project="jydAiGdIiekdGGhbBalf" 
+          data-us-project="67bMayuIex6ZsrkBXpsY" 
           style={{ width: '100%', height: '100%' }}
         />
       </div>
