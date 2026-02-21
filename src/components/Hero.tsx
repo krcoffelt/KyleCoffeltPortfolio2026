@@ -18,7 +18,7 @@ const Hero = () => {
     if (!window.UnicornStudio) {
       window.UnicornStudio = { isInitialized: false, init: () => {} };
       const script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.33/dist/unicornStudio.umd.js";
+      script.src = "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.0.5/dist/unicornStudio.umd.js";
       script.onload = () => {
         if (!window.UnicornStudio.isInitialized) {
           window.UnicornStudio.init();
@@ -42,7 +42,7 @@ const Hero = () => {
       {/* Unicorn Studio Animation */}
       <div className="absolute inset-0 bg-black overflow-hidden flex items-center justify-center">
         <div 
-          data-us-project="y5T0wP2VeCGKfyA0aNYH" 
+          data-us-project="jydAiGdIiekdGGhbBalf" 
           style={{ width: '100%', height: '100%', maxWidth: '1440px', maxHeight: '900px' }}
         />
       </div>
