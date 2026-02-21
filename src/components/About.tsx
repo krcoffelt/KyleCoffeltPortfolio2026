@@ -8,9 +8,10 @@ const About = () => {
 
         <div className="max-w-4xl">
           <p className="text-3xl md:text-5xl font-light leading-relaxed text-foreground/90 mb-8">
-            I'm a self-taught graphic designer with a Bachelor's degree in marketing and 
-            5 years of experience in the field. I blend creative design with strategic 
-            marketing thinking to create work that not only looks great, but drives results.
+            I am a marketing manager and web specialist with 5+ years of experience building
+            fast, modern websites and growth-focused marketing that converts. I combine design,
+            SEO, and analytics to turn traffic into customers and keep brands consistent across
+            web, email, and social.
           </p>
           <p className="text-xl text-muted-foreground font-light leading-relaxed">
             Based in Kansas City. Available for select projects.
