@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black overflow-hidden flex items-center justify-center">
         <div 
           data-us-project="jydAiGdIiekdGGhbBalf" 
-          style={{ width: '100%', height: '100%', maxWidth: '1440px', maxHeight: '900px' }}
+          style={{ width: '100%', height: '100%' }}
         />
       </div>
 
