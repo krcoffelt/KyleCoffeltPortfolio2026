@@ -7,6 +7,17 @@ const Footer = () => {
             © {new Date().getFullYear()} Kyle Coffelt
           </p>
           <p className="text-sm text-muted-foreground font-light">
+            Website by Hometown Marketing Agency{" "}
+            <a
+              href="https://hometownkc.agency"
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-4 transition-opacity hover:opacity-70"
+            >
+              hometownkc.agency
+            </a>
+          </p>
+          <p className="text-sm text-muted-foreground font-light">
             All rights reserved
           </p>
         </div>
