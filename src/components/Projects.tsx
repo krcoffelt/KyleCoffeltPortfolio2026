@@ -52,6 +52,9 @@ import hometownTruepath from "@/assets/hometown-truepath.png";
 import hometownGoldenhour from "@/assets/hometown-goldenhour.png";
 import hometownStillstudio from "@/assets/hometown-stillstudio.png";
 import hometownWinningGamePlan from "@/assets/hometown-winning-game-plan.jpg";
+import hometownWrappedUpMoving from "@/assets/hometown-wrapped-up-moving.jpg";
+import hometownSideBrosPowerWashing from "@/assets/hometown-side-bros-kc-power-washing.png";
+import hometownDecksRx from "@/assets/hometown-decks-rx-kc.png";
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -64,7 +67,19 @@ const Projects = () => {
       position: "Agency Owner",
       year: "2025",
       image: hometownMiloOtis,
-      designs: [hometownMiloOtis, hometownZentonic, hometownHolysmokes, hometownTramanto, hometownTruepath, hometownGoldenhour, hometownStillstudio, hometownWinningGamePlan],
+      designs: [
+        hometownMiloOtis,
+        hometownZentonic,
+        hometownHolysmokes,
+        hometownTramanto,
+        hometownTruepath,
+        hometownGoldenhour,
+        hometownStillstudio,
+        hometownWinningGamePlan,
+        hometownWrappedUpMoving,
+        hometownSideBrosPowerWashing,
+        hometownDecksRx,
+      ],
       description: "I started a marketing agency with the goal of helping small businesses with logos, websites, and other marketing needs.",
       gradient: "from-cyan-500 via-blue-500 to-indigo-600",
     },
